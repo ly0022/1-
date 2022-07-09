@@ -1,0 +1,209 @@
+.container {
+    position: absolute;
+    margin: 200px auto 0px;
+    left: 0;
+    right: 0;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    border: 6px rgba(255, 255, 255, 0.87) solid;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(231, 63, 63, 0.479);
+    z-index: 99;
+    border-image: url(../img/4duyr277.bmp) 12 round;
+}
+
+.panel {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    transition: font-size 0.7s ease-in-out, flex-grow 0.7s ease-in-out;
+    overflow: hidden;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.719);
+}
+
+
+.panel>* {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+p:first-child {
+    transform: translateY(100%);
+}
+
+.change {
+    flex-grow: 25;
+    font-size: 38px;
+}
+
+.alter p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: translateY(30%);
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+
+.pan1 {
+    background: url(../img/00.jpeg)no-repeat 45%/cover;
+    color: rgb(247, 92, 247);
+    text-shadow: 3px 3px 1px rgba(255, 255, 255);
+}
+
+.pan2 {
+    background: url(../img/10.jpeg) no-repeat 40%/cover;
+    color: rgb(235, 235, 67);
+    text-shadow: 3px 3px 1px rgb(99, 108, 235);
+}
+
+.pan3 {
+    background: url(../img/20.JPG) no-repeat 60%/cover;
+    color: rgb(224, 37, 37);
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+}
+
+.pan4 {
+    background: url(../img/30.jpeg) no-repeat 50%/cover;
+    text-shadow: 3px 3px 1px rgb(253, 251, 251);
+}
+
+.pan5 {
+    background: url(../img/40.JPG) no-repeat 67%/cover;
+    color: rgb(247, 244, 244);
+    text-shadow: 3px 3px 1px rgb(117, 238, 163);
+}
+
+.pan6 {
+    background: url(../img/50.webp) no-repeat 50%/cover;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 1px rgb(60, 190, 223);
+}
+
+.pan7 {
+    background: url(../img/60.jpeg) no-repeat 56%/cover;
+    color: rgba(124, 122, 122, 0.795);
+    text-shadow: 3px 3px 1px rgba(20, 20, 20, 0.979);
+}
+
+@keyframes frams0 {
+    0% {
+        background: url("../img/00.jpeg")no-repeat 45%/cover;
+    }
+
+    33% {
+        background: url("../img/01.jpeg")no-repeat 45%/cover;
+    }
+
+    66% {
+        background: url("../img/02.jpg")no-repeat 45%/cover;
+    }
+
+    100% {
+        background: url("../img/00.jpeg")no-repeat 45%/cover;
+    }
+}
+@keyframes frams1 {
+    0% {
+        background: url("../img/10.jpeg")no-repeat 45%/cover;
+    }
+
+    33% {
+        background: url("../img/11.jpeg")no-repeat 45%/cover;
+    }
+
+    66% {
+        background: url("../img/12.jpeg")no-repeat 45%/cover;
+    }
+
+    100% {
+        background: url("../img/10.jpeg")no-repeat 45%/cover;
+    }
+}
+@keyframes frams2 {
+    0% {
+        background: url("../img/20.JPG")no-repeat 45%/cover;
+    }
+
+    33% {
+        background: url("../img/21.bmp")no-repeat 45%/cover;
+    }
+
+    66% {
+        background: url("../img/22.bmp")no-repeat 45%/cover;
+    }
+
+    100% {
+        background: url("../img/20.JPG")no-repeat 45%/cover;
+    }
+}
+@keyframes frams3 {
+    0% {
+        background: url("../img/30.jpeg")no-repeat 45%/cover;
+    }
+
+    33% {
+        background: url("../img/31.bmp")no-repeat 45%/cover;
+    }
+
+    66% {
+        background: url("../img/32.bmp")no-repeat 45%/cover;
+    }
+
+    100% {
+        background: url("../img/30.jpeg")no-repeat 45%/cover;
+    }
+}
+@keyframes frams4 {
+    0% {
+        background: url("../img/40.JPG")no-repeat 45%/cover;
+    }
+
+    33% {
+        background: url("../img/41.JPEG")no-repeat 45%/cover;
+    }
+
+    66% {
+        background: url("../img/42.jpeg")no-repeat 45%/cover;
+    }
+
+    100% {
+        background: url("../img/40.JPG")no-repeat 45%/cover;
+    }
+}
+@keyframes frams5 {
+    0% {
+        background: url("../img/50.webp")no-repeat 45%/cover;
+    }
+
+    33% {
+        background: url("../img/51.jpeg")no-repeat 45%/cover;
+    }
+
+    66% {
+        background: url("../img/52.jpeg")no-repeat 45%/cover;
+    }
+
+    100% {
+        background: url("../img/50.webp")no-repeat 45%/cover;
+    }
+}
+@keyframes frams6 {
+    0% {
+        background: url("../img/60.jpeg")no-repeat 45%/cover;
+    }
+
+    33% {
+        background: url("../img/61.jpeg")no-repeat 45%/cover;
+    }
+
+    66% {
+        background: url("../img/62.jpeg")no-repeat 45%/cover;
+    }
+
+    100% {
+        background: url("../img/60.jpeg")no-repeat 45%/cover;
+    }
+}
